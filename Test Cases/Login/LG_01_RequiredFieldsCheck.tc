@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LG_01_RequiredFieldsCheck</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4a98f5ee-f4ac-40fb-bf09-595fa81c51ab</testCaseGuid>
+</TestCaseEntity>

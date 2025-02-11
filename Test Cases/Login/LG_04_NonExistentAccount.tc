@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LG_04_NonExistentAccount</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e4d0b3f7-48f1-4ccb-8249-de2cf38b4e33</testCaseGuid>
+</TestCaseEntity>

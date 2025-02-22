@@ -17,3 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String URL = GlobalVariable.URL
+WebUI.openBrowser(URL)
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('Object Repository/Login_page/btn_login'))
+String inputEmail = 'lam@com'
+
+WebUI.setText(findTestObject('Object Repository/Login_page/txt_email'), inputEmail)
+WebUI.setEncryptedText(findTestObject('Object Repository/Login_page/txt_passWord'),'2Ac7E84YiCU=')
+
+WebUI.click(findTestObject('Object Repository/Login_page/btn_startLogin'))
+
+String actualErrorMessage = WebUI.getText(findTestObject('Object Repository/Login_page/lbl_errorMessage'))
+
+String expectedErrorMessage = 'Email chưa chính xác'
+
+WebUI.verifyMatch(actualErrorMessage, expectedErrorMessage, false)

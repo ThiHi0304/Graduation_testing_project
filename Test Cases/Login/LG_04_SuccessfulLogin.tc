@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LG_04_NonExistentAccount</name>
+   <name>LG_04_SuccessfulLogin</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>e4d0b3f7-48f1-4ccb-8249-de2cf38b4e33</testCaseGuid>
+   <testCaseGuid>d84777f0-e78a-4e65-a1cd-b713bcdbe368</testCaseGuid>
 </TestCaseEntity>
